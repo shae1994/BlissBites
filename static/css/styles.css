@@ -1,0 +1,52 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the header */
+header {
+    background-color: white;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: white;
+    display: flex; /* Use flex layout */
+    justify-content: space-between; /* Distribute items to the left and right */
+    align-items: center; /* Vertically align items */
+    padding: 5px 20px;
+}
+
+/* Center the navigation and style the links */
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.button-header {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #FFAFDF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.chilanka-font {
+    font-family: 'Chilanka', cursive;
+}
+
+#logo {
+    width: 150px;
+}
+
+.gradient-background {
+    background: linear-gradient(135deg, #A0E0E5, #FFFFFF, #FFE1F3);
+}
