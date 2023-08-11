@@ -43,10 +43,31 @@ nav ul li {
     font-family: 'Chilanka', cursive;
 }
 
+.delius-font{
+    font-family: 'Delius Unicase', cursive;
+    color: #CB4E99;
+    text-align: center;
+}
+
+
+
+
 #logo {
     width: 150px;
 }
 
 .gradient-background {
-    background: linear-gradient(135deg, #A0E0E5, #FFFFFF, #FFE1F3);
+    background: linear-gradient(180deg, #A0E0E5, #FFFFFF, #FFE1F3);
+}
+
+.image {
+    width: 289px;
+    height: 300px;
+}
+
+#avatar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
 }

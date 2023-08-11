@@ -10,7 +10,7 @@ def products():
 
 
 @app.route('/')
-def hello_world():  # put application's code here
+def home():  # put application's code here
     return render_template('index.html')
 
 
