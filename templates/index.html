@@ -1,10 +1,52 @@
 {% extends "base.html"%}
 {% block header %}
-    <div id="avatar" >
-        <img src="static/images/avatar.png" alt="my Picture" class="image">
+
+    <div class="gradient-background">
+
+        <div >
+          <img src="{{url_for('static',filename='images/avatar.png')}}" alt="my Picture" class="image" />
+        </div>
+
+        <div>
+            <p class="delius-font"> the secret recipe for the algorithm alchemist </p>
+        </div>
+
+        <div  id="encaser">
+            <div id="centre">
+                <p class="chilanka-font" > Ingredients: </br> 1 dash of Cool-Headed Confidence (Taye-Vaughn) </br>
+                                                A handful of Logical Logic (Colin)</br>
+                                                A pinch of Soft-Spoken Specialness (Chadric)</br>
+                                                A dollop of Dedicated Shyness (Devinn)</br>
+                                                A sprinkle of Energetic Enthusiasm (Me!)
+                    </p>
+
+            </div>
+
+            <div id="centre">
+                <p class="chilanka-font"> Instructions:
+                <ol class="chilanka-font justified">
+                    <li>Cool-Headed Confidence (Taye-Vaughn): Start with Taye-Vaughn, the calm and collected foundation. He's the cool breeze that never fails to keep us grounded, a reliable friend who brings an air of serenity to the creative chaos. Like the perfect cake base, he's essential to our scrumptious success.</li> </br>
+                    <li>Logical Logic (Colin): Fold in Colin's logic and reason. He's the steady flour that binds us together, making sure every idea has a strong structure. Just like a well-measured ingredient, he adds depth and substance to our creative concoctions.</li></br>
+                    <li>Soft-Spoken Specialness (Chadric): Mix in Chadric's soft-spoken yet extraordinary touch. He's the secret ingredient that makes everything just right, ensuring every task is completed with precision and care. Just as a cake needs a touch of sweetness, Chadric adds that special flavor to our team dynamic.</li></br>
+                    <li>Dedicated Shyness (Devinn): Gently fold in Devinn's dedication, which shines through his shy demeanor. He's like the perfectly whipped cream, adding that silky-smooth texture that enhances the overall experience. His commitment to excellence is a testament to his heartwarming sweetness.</li></br>
+                    <li>Energetic Enthusiasm (Me) : Finally, infuse the mixture with your energetic enthusiasm. You're the sprinkles on top, the vibrant decoration that brings the whole creation to life. Your love for design, data, and 3D modeling is the icing on our team's cake, making every bite a burst of delight.</li></br>
+                </ol>
+                </p>
+
+                <p class="chilanka-font pad">Bake at the Temperature of Collaboration: Together, these ingredients create the perfect blend of synergy and innovation. Just like a cake needs the right balance of elements, our team thrives on each member's unique qualities. </br> Taye-Vaughn's wisdom, Colin's questions, Chadric's diligence, Devinn's determination,
+                    and your electrifying energy - it's a recipe for success that's as satisfying as sinking your teeth into a freshly baked BlissBite!</p></br>
+
+                <p class="chilanka-font pad">Serve with a side of camaraderie, a sprinkle of laughter, and a dollop of dreams. Enjoy the delectable experience of Algorithm Alchemist: Where personalities mix, ideas rise, and every slice is a taste of pure collaboration joy!</p></br>
+                </br>
+                </br>
+                </br>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <p class="delius-font"> the secret recipe for the algorithm alchemist </p>
-    </div>
+
+
+
+
+
 {% endblock %}

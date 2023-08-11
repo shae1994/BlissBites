@@ -43,10 +43,38 @@ nav ul li {
     font-family: 'Chilanka', cursive;
 }
 
+.chilanka-font.justified {
+    font-family: 'Chilanka', cursive;
+    text-align: justify;
+}
+
+.chilanka-font.pad {
+    font-family: 'Chilanka', cursive;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+#centre{
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+    padding: 2.5% 25% 0 25%;
+    color: #863967;
+}
+
+#encaser {
+    background-image: url("../images/branding/background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100px;
+}
+
+
 .delius-font{
     font-family: 'Delius Unicase', cursive;
     color: #CB4E99;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 
@@ -57,17 +85,16 @@ nav ul li {
 }
 
 .gradient-background {
-    background: linear-gradient(180deg, #A0E0E5, #FFFFFF, #FFE1F3);
+    background: linear-gradient(180deg, #FFE1F3, #FFFFFF, #A0E0E5  );
 }
 
 .image {
-    width: 289px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
+    width: 289px;
+    padding: 40px;
 }
 
-#avatar{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 150px;
-}
+
