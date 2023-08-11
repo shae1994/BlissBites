@@ -98,3 +98,122 @@ nav ul li {
 }
 
 
+.gradient-background {
+    background: linear-gradient(135deg, #A0E0E5, #FFFFFF, #FFE1F3);
+}
+
+#pastry-shop{
+    background: linear-gradient(180deg, #A0E0E5 0%, #FFF 100%);
+    justify-content: center;
+    text-align:center;
+}
+#big-donut{
+    padding:10px;
+    width:35%;
+}
+#pastry-shop>p{
+    color: #CB4E99;
+    font-family: Crushed;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#pastry-products{
+    margin-top:20px;
+    padding: 10px;
+    background: linear-gradient(180deg, #FFF 14.06%, #FFE8F6 42.71%, #FFAFDF 100%);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+.grid > div {
+    padding: 20px;
+    text-align: center;
+
+}
+.grid > div> a> img{
+    width:50%;
+}
+.grid> div> a{
+    text-decoration: none;
+}
+
+#product-name{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1em;
+    padding: 5px;
+    color:#CB4E99;
+}
+
+#product-cost{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 0.8em;
+    padding:5px;
+    color:#863967;
+}
+#product-detail{
+    padding: 10px;
+    background: linear-gradient(180deg, #E0F7F9 0%, #78BFD3 58.33%, #FFF 100%);
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-detail > aside {
+    padding-top: 10%;
+    width: 50%;
+}
+
+#details{
+    border-radius: 5px;
+    background: linear-gradient(180deg, #FFF 14.06%, #FFE8F6 42.71%, #FFAFDF 100%);
+
+}
+#details >h1{
+    padding: 5%;
+    font-family: 'Delius Unicase', cursive;
+font-size: 2em;
+    text-align: center;
+    color:#CB4E99;
+}
+#details >p{
+    padding: 5%;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1em;
+
+    color:#9B4A7B;
+}
+#image-cost> img{
+    width:50%;
+    justify-content: center;
+    padding: 0 25% 0 25%;
+}
+#image-cost> p{
+    margin-top:10px;
+    font-family: 'Delius Unicase', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left:25%;
+    color:#CB4E99;
+    padding-right:25%;
+}
+.spacer{
+    padding-right:25%;
+    padding-left:25%;
+}
+
+#add-to-cart{
+    text-align: center;
+    justify-content: center;
+    background-color: #CB4E99;
+    margin-left: 40%;
+    color:white;
+    border-radius: 5px;
+    padding:10px;
+}
